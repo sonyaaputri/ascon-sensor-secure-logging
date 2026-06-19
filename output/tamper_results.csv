@@ -1,0 +1,10 @@
+skenario,terdeteksi,terdeteksi_oleh_aead,terdeteksi_oleh_hash_chain_anchor,terdeteksi_oleh_sequence,status_akhir,catatan_error_pertama,waktu_verifikasi_ms
+Normal / tanpa manipulasi,Tidak,Tidak,Tidak,Tidak,Valid,-,456.075
+Ciphertext diubah 1 byte,Ya,Ya,Ya,Tidak,Gagal diverifikasi,record_hash tidak valid pada sequence 34,469.277
+Authentication tag diubah,Ya,Ya,Ya,Tidak,Gagal diverifikasi,record_hash tidak valid pada sequence 34,461.905
+Timestamp diubah,Ya,Ya,Ya,Tidak,Gagal diverifikasi,record_hash tidak valid pada sequence 34,457.32
+Device ID diubah,Ya,Ya,Ya,Tidak,Gagal diverifikasi,record_hash tidak valid pada sequence 34,479.067
+Satu record dihapus,Ya,Tidak,Ya,Ya,Gagal diverifikasi,sequence_number tidak sesuai pada posisi 51,476.97
+Record terakhir dihapus,Ya,Tidak,Ya,Tidak,Gagal diverifikasi,jumlah record tidak sesuai dengan anchor tepercaya,469.642
+Record duplikat disisipkan,Ya,Tidak,Ya,Ya,Gagal diverifikasi,sequence_number tidak sesuai pada posisi 51,562.254
+Urutan dua record ditukar,Ya,Tidak,Ya,Ya,Gagal diverifikasi,sequence_number tidak sesuai pada posisi 51,467.773

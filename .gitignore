@@ -1,0 +1,41 @@
+﻿# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+pytest-cache-files-*/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment/secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Generated datasets and bulky secure-log artifacts
+# Ringkasan CSV dan grafik di output/ tetap boleh dipush sebagai bukti eksperimen.
+data/*.csv
+output/secure_log_*.jsonl
+output/anchor_*.json
+output/sample_decrypted_*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx

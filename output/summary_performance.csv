@@ -1,0 +1,4 @@
+jumlah_record,waktu_enkripsi_ms,waktu_dekripsi_ms,waktu_verifikasi_hash_chain_ms,waktu_verifikasi_penuh_ms,ukuran_plaintext_kb,ukuran_secure_log_kb,overhead_persen,hasil_dekripsi_sesuai_plaintext,status_verifikasi_normal
+100,679.224,133.77,400.889,544.41,5.976,50.684,748.18,Ya,valid
+1000,7250.648,938.152,3978.954,4142.246,60.136,507.929,744.64,Ya,valid
+10000,64046.497,8231.148,35506.667,45269.618,610.24,5088.605,733.87,Ya,valid
